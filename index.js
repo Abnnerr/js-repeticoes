@@ -4,18 +4,37 @@
 //     console.log(soma += num)
 // }
 
+// function enviar() {
+//     let valor = document.querySelector('#oi').value
+//     let valornum = Number(valor)
+//     for (let num = 1; num <= valornum; num++) {
 
-// for(let num = 1; num <= 50; num++) {
+//         if (num % 2 == 0) {
+//             alert(num)
+//         }
+//     }
+// }
 
-//     if (num % 2 == 0) {
+// let lista = ['jonas', 'abner', 'silva', 'vieira']
+
+
+// for(let num = 0; num < 4; num++) {
+//     console.log(lista[num])
+// }
+
+// for(let num = 0; num < 30; num++) {
+//     if (num % 2 != 0) {
 //         console.log(num)
 //     }
 // }
 
 
-let lista = ['jonas', 'abner', 'silva', 'vieira']
 
-
-for(let num = 0; num < 4; num++) {
-    console.log(lista[num])
+function contar(arr) {
+    count = 0
+    while(arr[count]) {
+        count++;
+    }
 }
+contar(['a','b','c'])
+console.log(count)
