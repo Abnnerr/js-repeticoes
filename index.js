@@ -16,6 +16,6 @@
 let lista = ['jonas', 'abner', 'silva', 'vieira']
 
 
-for(let num = 0; num < lista.length; num++) {
-    console.log(lista[i])
+for(let num = 0; num < 4; num++) {
+    console.log(lista[num])
 }
