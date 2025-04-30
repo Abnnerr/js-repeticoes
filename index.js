@@ -30,11 +30,20 @@
 
 
 
-function contar(arr) {
-    count = 0
-    while(arr[count]) {
-        count++;
-    }
+
+// let lista = ['a','s','8',10,12,33,100,12,4,5,6,7,8,9]
+// let count = 0
+
+// for(let i = 0;lista[count]; i++) {
+//     count += 1
+
+// }
+// console.log(count)
+let numero = 0
+let num = 1
+while (num <= 50) {
+    numero += num;
+    num++;
+
 }
-contar(['a','b','c'])
-console.log(count)
+console.log(numero)
